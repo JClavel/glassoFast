@@ -53,8 +53,8 @@ function(S, rho, thr=1.0e-4, maxIt=1e4, start=c("cold","warm"), w.init=NULL, wi.
                  is,
                  X,
                  W,
-                 Wd,# ajouté
-                 WXj,# ajouté
+                 Wd,
+                 WXj,
                  info)
   
   results <- list(w=LASSO[[9]], wi=LASSO[[8]], errflag=LASSO[[12]], niter=LASSO[[5]])
