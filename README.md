@@ -1,7 +1,7 @@
 # glassoFast
 glassoFast: a Fast Graphical LASSO
 
-This package propose a fast implementation of the graphical LASSO of Friedman et al. 2008 based on the algorithm (FORTRAN subroutine) of Sustik and Calderhead (2008).
+This package propose a fast implementation of the graphical LASSO of Friedman et al. 2008 based on the algorithm (and FORTRAN subroutine) of Sustik and Calderhead (2018).
 This algorithm also avoid non-termination issues observed for the "glasso" function of the R package glasso.
 
 
@@ -30,4 +30,5 @@ Any bugs encountered when using the package can be reported [here](https://githu
 ## **References**
 **Friedman J., Hastie T., Tibshirani R. 2008.** Sparse inverse covariance estimation with the graphical lasso. Biostatistics. 9:432-441.
 
-**Sustik M.A., Calderhead B. 2012.** GLASSOFAST: An efficient GLASSO implementation. UTCS Technical Report TR-12-29:1-3.
+**Sustik M.A., Calderhead B. 2012.** GLASSOFAST: An efficient GLASSO implementation. UTCS Technical Report TR-12-29:1-3. [Source code](http://www.cs.utexas.edu/users/sustik/glassofast/)
+

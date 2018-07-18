@@ -5,7 +5,7 @@
 glassoFast: a Fast Graphical LASSO
 }
 \description{
-This package propose a fast implementation of the graphical LASSO of Friedman et al. 2008 based on the algorithm (FORTRAN subroutine) of Sustik and Calderhead (2008).
+This package propose a fast implementation of the graphical LASSO of Friedman et al. 2008 based on the algorithm (FORTRAN subroutine) of Sustik and Calderhead (2012).
 This algorithm also avoid non-termination issues observed for the "glasso" function of the R package glasso.
 }
 

@@ -2,9 +2,9 @@ Package: glassoFast
 Type: Package
 Title: Fast Graphical LASSO
 Version: 1.0
-Date: 2017-05-24
+Date: 2018-07-17
 Suggests: glasso
-Author: Julien Clavel [aut, cre], 
+Author: Julien Clavel [cre], 
 		Matyas A Sustik [aut, cph], 
 		Ben Calderhead [aut, cph]
 Maintainer: Julien Clavel <julien.clavel@hotmail.fr>
