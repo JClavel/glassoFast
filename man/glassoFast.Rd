@@ -52,7 +52,7 @@ Flag for printing out information as iterations proceed. Default FALSE.
 }
 \details{
 Estimate a sparse inverse covariance matrix using a lasso (L1) penalty, following the Friedman et al. (2008) approach.
-The function is based on the faster and corrected (for non-termination convergence issues) FORTRAN subroutine of Sustik and Calderhead (2012).
+The function is a wrapper of the faster and corrected (for non-termination convergence issues) FORTRAN subroutine of Sustik and Calderhead (2012).
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
