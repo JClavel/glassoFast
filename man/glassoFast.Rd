@@ -98,16 +98,17 @@ s<- var(x)
 glassoFast(s, rho=.1)
 
 # compare with glasso
-# require(glasso)
-# glasso(s, rho=.1)
+\donttest{
+ require(glasso)
+ glasso(s, rho=.1)
 
 # benchmark glassoFast and glasso
-# library(rbenchmark)
-# p=50
-# x<-matrix(rnorm(p*p),ncol=p)
-# s<- var(x)
-# benchmark(glassoFast(s, rho=.01), glasso(s, rho=.01), replications = 100)
-
+ require(rbenchmark)
+ p=50
+ x<-matrix(rnorm(p*p),ncol=p)
+ s<- var(x)
+ benchmark(glassoFast(s, rho=.01), glasso(s, rho=.01), replications = 100)
+	}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
