@@ -4,10 +4,9 @@ Title: Fast Graphical LASSO
 Version: 1.0
 Date: 2018-07-17
 Suggests: glasso
-Author: Julien Clavel [cre], 
-		Matyas A Sustik [aut, cph], 
-		Ben Calderhead [aut, cph]
+Author: Matyas A Sustik [aut, cph], 
+		Ben Calderhead [aut, cph],
+		Julien Clavel [com, ctb]
 Maintainer: Julien Clavel <julien.clavel@hotmail.fr>
-Description: Fast and corrected algorithm for the Graphical LASSO 
-			 by Sustik and Calderhead (2012).
+Description: glassoFast: a fast implementation of the graphical LASSO
 License: GPL (>=3)
