@@ -8,5 +8,5 @@ Author: Matyas A Sustik [aut, cph],
 		Ben Calderhead [aut, cph],
 		Julien Clavel [com, ctb]
 Maintainer: Julien Clavel <julien.clavel@hotmail.fr>
-Description: A fast implementation of the graphical LASSO with improved convergence.
+Description: A fast and improved implementation of the graphical LASSO.
 License: GPL (>=3)
