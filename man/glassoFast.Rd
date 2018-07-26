@@ -107,7 +107,7 @@ glassoFast(s, rho=.1)
  p=50
  x<-matrix(rnorm(p*p),ncol=p)
  s<- var(x)
- benchmark(glassoFast(s, rho=.01), glasso(s, rho=.01), replications = 100)
+ benchmark(glassoFast(s, rho=.15), glasso(s, rho=.15), replications = 100)
 	}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
