@@ -9,4 +9,5 @@ Author: Matyas A Sustik [aut, cph],
 		Julien Clavel [com, ctb]
 Maintainer: Julien Clavel <julien.clavel@hotmail.fr>
 Description: A fast and improved implementation of the graphical LASSO.
+URL: https://github.com/JClavel/glassoFast
 License: GPL (>=3)
